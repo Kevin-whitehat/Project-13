@@ -67,8 +67,9 @@ function draw() {
       pinkBalloon();
     }
   }
-
+  scoreE();
   drawSprites();
+  scoreE();
 }
 
 
@@ -122,6 +123,6 @@ function pinkBalloon() {
   pink.scale = 0.1;
 
 }
-function score() {
+function scoreE() {
   text("Score: " + score, 270, 30)
 }
